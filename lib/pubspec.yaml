@@ -1,0 +1,19 @@
+name: udipsai
+description: "Proyecto Flutter para control con Bluetooth y sensores"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bluetooth_serial: ^0.4.0
+  logger: ^2.5.0  # Asegúrate de tener esta línea
+
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+flutter:
+  assets:
+    - assets/logo.png
+    - assets/button1.png
+    - assets/button2.png
+    - assets/button3.png
+    - assets/button4.png
